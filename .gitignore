@@ -1,0 +1,20 @@
+# Local Android / Gradle configuration (may contain local usernames and paths)
+local.properties
+.gradle/
+.idea/
+
+# Build products and local app data
+build/
+app/build/
+*.apk
+*.aab
+*.keystore
+*.jks
+
+# Local working files and generated delivery archives
+work/
+outputs/
+
+# Operating-system files
+.DS_Store
+Thumbs.db
